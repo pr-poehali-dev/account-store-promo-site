@@ -7,15 +7,15 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+      <div className="bg-gradient-to-br from-red-600 to-red-800 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6 font-[Inter]">Магазин аккаунтов</h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto font-[Open_Sans]">Аккаунты на любой вкус и бюджет. Автоматическая выдача, гарантии возврата, быстрая и удобная оплата.</p>
           <div className="flex gap-4 justify-center">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-red-600 hover:bg-gray-100">
               Каталог товаров
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600">
               Связаться с нами
             </Button>
           </div>
@@ -27,22 +27,22 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Icon name="Zap" size={32} className="text-blue-600" />
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Zap" size={32} className="text-red-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2 font-[Inter]">Автоматическая выдача</h3>
               <p className="text-gray-600 font-[Open_Sans]">Получите доступ к аккаунту мгновенно после оплаты</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Icon name="Shield" size={32} className="text-blue-600" />
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Shield" size={32} className="text-red-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2 font-[Inter]">Гарантии возврата</h3>
               <p className="text-gray-600 font-[Open_Sans]">100% при восстановлении, 50% при бане аккаунта</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Icon name="Star" size={32} className="text-blue-600" />
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Star" size={32} className="text-red-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2 font-[Inter]">Качество и надежность</h3>
               <p className="text-gray-600 font-[Open_Sans]">Только проверенные аккаунты от надежных поставщиков</p>
@@ -66,7 +66,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-blue-600 font-[Inter]">от 500₽</span>
+                  <span className="text-2xl font-bold text-red-600 font-[Inter]">от 500₽</span>
                   <Button>Выбрать</Button>
                 </div>
               </CardContent>
@@ -82,7 +82,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-blue-600 font-[Inter]">от 200₽</span>
+                  <span className="text-2xl font-bold text-red-600 font-[Inter]">от 200₽</span>
                   <Button>Выбрать</Button>
                 </div>
               </CardContent>
@@ -98,7 +98,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-blue-600 font-[Inter]">от 150₽</span>
+                  <span className="text-2xl font-bold text-red-600 font-[Inter]">от 150₽</span>
                   <Button>Выбрать</Button>
                 </div>
               </CardContent>
@@ -162,9 +162,9 @@ const Index = () => {
               <p className="text-gray-700 font-[Open_Sans]">Если аккаунт будет восстановлен владельцем, мы вернем 100% от стоимости заказа</p>
             </div>
             
-            <div className="bg-blue-50 p-6 rounded-lg">
+            <div className="bg-red-50 p-6 rounded-lg">
               <div className="flex items-center mb-4">
-                <Icon name="Shield" size={24} className="text-blue-600 mr-3" />
+                <Icon name="Shield" size={24} className="text-red-600 mr-3" />
                 <h3 className="text-xl font-semibold font-[Inter]">Частичная компенсация</h3>
               </div>
               <p className="text-gray-700 font-[Open_Sans]">При бане аккаунта возвращаем 50% от суммы заказа в качестве компенсации</p>

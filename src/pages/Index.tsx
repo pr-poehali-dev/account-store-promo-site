@@ -159,7 +159,7 @@ const Index = () => {
                 <Icon name="CheckCircle" size={24} className="text-green-600 mr-3" />
                 <h3 className="text-xl font-semibold font-[Inter]">Возврат при восстановлении</h3>
               </div>
-              <p className="text-gray-700 font-[Open_Sans]">Если аккаунт будет восстановлен владельцем, мы вернем 100% от стоимости заказа</p>
+              <p className="text-gray-700 font-[Open_Sans]">Если аккаунт будет восстановлен, мы вернем 100% от стоимости заказа</p>
             </div>
             
             <div className="bg-red-50 p-6 rounded-lg">
